@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,100');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:700,300');
 
 body
 {
@@ -9,27 +9,29 @@ body
 
 h1 {
 	color: #eee;
-	font-family: 'Libre Franklin', sans-serif;
 	font-weight: 100;
 	font-size: 8vw;
 	text-align: center;
-	margin: 2em 0 2em 0; 
+	margin: 2em 0 2em 0;
+	letter-spacing: -0.07em;
 }
+@media print, screen and (max-width: 40em) {
+h1 { font-size: 12vw; margin: 1em 0 1em 0;}
+	}
+	
 h2 {padding: 10vw;
-	font-family: 'Libre Franklin', sans-serif;
 	font-weight: 100;
 	font-size: 4vw;}
 h3 {
-	 font-family: 'Libre Franklin', sans-serif;
 	 font-weight: 100;
 	 font-size: 2.22em;
 }
 
 .callout {
-	background: #444;
+	background: #bbb;
 	border: none;
 	padding: 10vw;
-	color: #888;
+	color: #222;
 	font-family: 'Libre Franklin', sans-serif;
 	font-weight: 300;
 }
@@ -41,10 +43,11 @@ padding: 0;
 margin: 0px;
 	}
 a {
-	color:#eee;
+	color:#059;
+	font-weight: 700;
 }
 a:hover {
-	color:#ccc;
+	color:#069;
 }
 .arke {
 	color: #555;
