@@ -60,3 +60,9 @@ a:hover {
 		margin-top: 10vh;
 
 }
+.slow {
+  transition-duration: 750ms !important; }
+  
+.ease {
+  transition-timing-function: ease !important; }
+
